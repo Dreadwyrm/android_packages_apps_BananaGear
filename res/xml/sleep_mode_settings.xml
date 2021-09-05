@@ -80,13 +80,6 @@
             android:summary="@string/sleep_mode_aggressive_toggle_summary"
             android:defaultValue="true" />
 
-        <com.bananadroid.support.preferences.SecureSettingListPreference
-            android:key="sleep_mode_ringer_mode"
-            android:title="@string/gaming_mode_ringer_title"
-            android:entries="@array/gaming_mode_ringer_entries"
-            android:entryValues="@array/gaming_mode_ringer_values"
-            android:defaultValue="0"
-            android:summary="%s" />
     </PreferenceCategory>
 
     <com.android.settingslib.widget.LayoutPreference
